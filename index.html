@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Fitness Assistant Trainer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>AI Fitness Assistant Trainer</h1>
+        <p>Your Personal Workout Assistant</p>
+    </header>
+
+
+    <div class="box">
+
+        <h2>Enter Your Details</h2>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter your age">
+
+
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" placeholder="Enter your weight">
+
+
+        <label for="goal">Fitness Goal:</label>
+
+        <select id="goal">
+
+            <option value="weightloss">Weight Loss</option>
+
+            <option value="muscle">Muscle Gain</option>
+
+            <option value="fitness">General Fitness</option>
+
+        </select>
+
+
+        <button type="button" onclick="recommendWorkout()">
+    Get Workout
+   </button>
+
+        <p id="result">
+            Your workout recommendation will appear here.
+        </p>
+
+    </div>
+
+
+    <h2 class="exercise-title">Exercises</h2>
+
+
+    <div class="exercises">
+
+
+        <div class="exercise">
+
+            <img
+                src="https://hips.hearstapps.com/hmg-prod/images/whl-evergreen-2137-r-682ce60a0fc96.jpg?crop=1.00xw:1.00xh;0,0&resize=1800:*"
+                alt="Squats">
+
+            <h3>Squats</h3>
+
+            <p>
+                Squats help strengthen the legs and lower body.
+            </p>
+
+        </div>
+
+
+        <div class="exercise">
+
+            <img
+                src="https://cdn.outsideonline.com/wp-content/uploads/2019/02/22/man-doing-bench-pushups_h.jpg"
+                alt="Push Ups">
+
+            <h3>Push Ups</h3>
+
+            <p>
+                Push ups help strengthen the chest and arms.
+            </p>
+
+        </div>
+
+
+        <div class="exercise">
+
+            <img
+                src="https://images.everydayhealth.com/images/2025/running-statistics-you-need-to-know-1440x810.jpg?w=576"
+                alt="Running">
+
+            <h3>Running</h3>
+
+            <p>
+                Running helps improve cardiovascular fitness.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+

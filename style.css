@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial;
+    background-color: #e8f5e9;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.box {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#result {
+    color: green;
+    margin-top: 20px;
+}
+
+.exercises {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.exercise {
+    background-color: white;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 8px gray;
+}
+
+.exercise img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.exercise p {
+    padding: 10px;
+}
+
